@@ -13,7 +13,19 @@ function img(src, options) {
         ...options,
         attributs: {
             ...options.attributs,
-            'src': src
+            src
+        }
+    })
+}
+
+function a(href, child,options) {
+    return component('a', {
+        ...options,
+        child,
+        attributs: {
+            ...options.attributs,
+            href,
+
         }
     })
 }
