@@ -1,7 +1,17 @@
 # mini-framework-js
 
+## Requirement
+- Node : ``14.7.3``
 
-## Page 1
+## Installation
+
+```
+npm i
+node server.js
+```
+
+## Page 1 
+``http://127.0.0.1:8080``
 ```javascript
 const dom =   column([
     list([
@@ -17,11 +27,12 @@ const dom =   column([
 document.querySelector('.root').appendChild(dom)
 ```
 <p align="center">
-    <img src="https://github.com/ArthurRmd/mini-framework-js/blob/master/img.png" width="600">
+    <img src="https://github.com/ArthurRmd/mini-framework-js/blob/main/img.png" width="600">
 </p>
 
 
 ## Page 2
+``http://127.0.0.1:8080/second-page.html``
 ```javascript
 const dom =
     componentWithChildren('article',[
@@ -41,5 +52,5 @@ document.querySelector('.root').appendChild(dom)
 ```
 
 <p align="center">
-    <img src="https://github.com/ArthurRmd/mini-framework-js/blob/master/img_1.png" width="600">
+    <img src="https://github.com/ArthurRmd/mini-framework-js/blob/main/img_1.png" width="600">
 </p>
